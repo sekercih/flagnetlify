@@ -12,10 +12,10 @@ function UseEffectFetch() {
   // console.log(ulkeler);
   return (
     <div className="text-center mt-5">
-    <h1>ULKELER</h1>
+      <h1 className="bg-info">ULKELER</h1>
       {ulkeler.map((ulke) => {
         return (
-          <div >
+          <div>
             <img src={ulke.flag} width="50%" alt="" />
             <h2>{ulke.name}</h2>
             <p>{ulke.capital}</p>
